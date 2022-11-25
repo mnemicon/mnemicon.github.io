@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 2rem 20% 0 20%;
+    border: solid #69013B 1px;
+    border-radius: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #69013B;
+    color: #F6D4C7;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+/*header h1 {
+    color: #F6D4C7;
+}*/
+
+
+/*.ops {
+tänne voisi ehkä laittaa borderin ja muotoilla sen.
+}*/
+
+ol {
+    list-style: decimal;
+    padding: 0 0 0 4rem;
+}
+li {
+    margin: 0 0 1rem 0;
+}
+
+article {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #69013B;
+    padding: 1rem;
+    /*margin: 5rem;*/
+    border-radius: 0 0 1rem 1rem;
+}
+.footer-p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    /* tänne breadcrumb nav */
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    /*margin: 5rem 0 3rem 0;*/
+}
+.sisennys-1rem {
+    margin: 5rem 0 3rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.sisennys-2rem {
+    margin: 3rem 0 2rem 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+.sisennys-4rem {
+    margin: 0 0 1rem 4rem;
+}
+
+
+/* Kuvat responsiivisiksi */
+figure img {
+    max-width: 100%;
+}
+/* Koulun logokuva oikeaan kokoon */
+#logo {
+    width: 11rem;
+    float: right;
+}
